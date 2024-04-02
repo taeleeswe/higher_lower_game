@@ -1,7 +1,10 @@
 from art import logo, vs
 from game_data import data
 import random
-from replit import clear
+import os
+
+def clear():
+   os.system('clear')
 
 def format_data(account):
   """ Takes the account data and returns the printable format """
